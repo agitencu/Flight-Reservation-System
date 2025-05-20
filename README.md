@@ -1,26 +1,26 @@
-Uçuş Rezervasyon Sistemi Projesi
-Proje Açıklaması:
+Flight Reservation System Project
+Project Description:
 
-Bu proje, kullanıcıların basit ve kullanıcı dostu bir arayüz üzerinden uçuş rezervasyonlarını gerçekleştirebilmelerini amaçlayan bir Windows Form uygulamasıdır. Projede, kullanıcıların rezervasyon bilgilerini kolayca girebilmeleri ve girdikleri bilgileri liste halinde görüntüleyebilmeleri için çeşitli araçlar kullanılmıştır.
+This project is a Windows Form application that aims to enable users to make flight reservations through a simple and user-friendly interface. Various tools are used in the project so that users can easily enter reservation information and display the information they enter in a list.
 
-Kullanılan Araçlar:
+Tools Used:
 
-Label: Kullanıcıya bilgi vermek ve form üzerindeki öğeleri tanımlamak için kullanılmıştır.
-Textbox: Kullanıcının ad, soyad, TC kimlik numarası gibi metin tabanlı verilerini girmesi için kullanılmıştır.
-Listbox: Kullanıcının girdiği tüm rezervasyon bilgilerini liste halinde göstermek için kullanılmıştır.
-MaskedTextBox: Kullanıcının tarih gibi belirli formatta veri girmesini sağlamak için kullanılmıştır.
-PictureBox: Uygulamaya görsel bir hava katmak için kullanılmıştır.
-DateTimePicker: Kullanıcının tarih ve saat seçmesini kolaylaştırmak için kullanılmıştır.
-Panel: Form üzerindeki öğeleri düzenlemek ve gruplandırmak için kullanılmıştır.
+Label: Used to provide information to the user and define the elements on the form.
+Textbox: Used for the user to enter text-based data such as name, surname, and TR ID number.
+Listbox: Used to display all reservation information entered by the user in a list.
+MaskedTextBox: Used to allow the user to enter data in a specific format such as date.
+PictureBox: Used to add a visual touch to the application.
+DateTimePicker: Used to make it easier for the user to select a date and time.
+Panel: Used to organize and group the elements on the form.
 
-Projenin İşleyişi:
+Project Operation:
 
-Kullanıcı Bilgi Girişi: Kullanıcı, ad, soyad, TC kimlik numarası gibi kişisel bilgilerini ve uçuş tarihi gibi rezervasyon bilgilerini ilgili TextBox'lara girer.
-Bilgi Doğrulama: Girilen bilgiler sistem tarafından kontrol edilir ve herhangi bir hata durumunda kullanıcı uyarılır.
-Bilgi Listesi: Doğru girilen bilgiler Listbox'a eklenir ve kullanıcı böylece girdiği tüm rezervasyonları tek bir yerde görebilir.
+User Information Entry: The user enters personal information such as name, surname, and TR ID number and reservation information such as flight date into the relevant TextBoxes.
+Information Verification: The information entered is checked by the system and the user is warned in case of any error.
+Information List: The information entered correctly is added to the Listbox and the user can see all the reservations he/she has entered in one place.
 
-Ek:
+Additional:
 
-Bu proje, bir öğrenme projesi olup ticari amaçlarla kullanılamaz.
-Proje hakkında herhangi bir sorunuz veya öneriniz olursa GitHub deposundaki issue bölümünden iletişime geçebilirsiniz.
-#uçuşrezervasyonu #windowsforms #c# #github #programlama
+This project is a learning project and cannot be used for commercial purposes.
+If you have any questions or suggestions about the project, you can contact us from the issue section in the GitHub repository.
+#flightreservation #windowsforms #c# #github #programming
